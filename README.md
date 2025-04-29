@@ -75,4 +75,4 @@ Output a GPT-based textual summary (if OpenAI API is configured).
    MSFT    2020-04-29   0.0448
 
 💬 Notes
-EPS Consensus values are not available via WRDS. In this project, we simulate them as 95% of actual EPS unless you manually import real consensus estimates.
+EPS Consensus values are not available via WRDS and I did not have access to an Earnings API. In this project, we simulate them as 95% of actual EPS unless you manually import real consensus estimates or change the dummy value in the code.
