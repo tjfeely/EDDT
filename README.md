@@ -36,7 +36,7 @@ Install required dependencies:
 pip install -r requirements.txt
 
 🔐 API Key Setup
-This project uses FinancialDatasets.ai to fetch real price data. Set your API key as an environment variable or directly in the price_fetcher.py file:
+This project uses FinancialDatasets.ai to fetch real price data. Set your API key as an environment variable via your own .gitignore and .env or directly in the price_fetcher.py file:
 export FDA_API_KEY="your_real_api_key_here"
 Alternatively, open price_fetcher.py and set the key manually:
 FDA_API_KEY = os.getenv("FDA_API_KEY", "your_real_api_key_here")
