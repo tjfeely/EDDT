@@ -41,7 +41,7 @@ FDA_API_KEY = os.getenv("FDA_API_KEY", "your_real_api_key_here")
 
 🚀 Running the Project
 Ensure your wrdsearnings.csv file (downloaded from WRDS/Compustat) is placed in the root directory. Then run:
-python(3) main.py
+python3 main.py
 This will:
 
 Load the earnings data from the CSV.
