@@ -1,3 +1,5 @@
+PLEASE VIEW README IN CODE FORM TAB
+
 📊 Earnings Drift Detection Toolkit (EDDT)
 EDDT is a Python-based toolkit that analyzes the market impact of earnings surprises by computing the Cumulative Abnormal Return (CAR) around earnings announcements. It integrates real price data from FinancialDatasets.ai and earnings data manually pulled from WRDS/Compustat. The project uses a modular agent-based architecture to perform fetching, calculations, sorting, and summarization.
 
